@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3easywordsimagesb624cc35",
+  "bucketName": "easy-words-images-b624cc35",
+  "policyUUID": "fed7779d",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ",
+    "CREATE_AND_UPDATE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ]
+}

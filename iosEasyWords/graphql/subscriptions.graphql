@@ -1,0 +1,112 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateUsers($filter: ModelSubscriptionUsersFilterInput) {
+  onCreateUsers(filter: $filter) {
+    id
+    userId
+    email
+    isPayed
+    theLastUpdate
+    visites
+    history {
+      choosenWords
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdateUsers($filter: ModelSubscriptionUsersFilterInput) {
+  onUpdateUsers(filter: $filter) {
+    id
+    userId
+    email
+    isPayed
+    theLastUpdate
+    visites
+    history {
+      choosenWords
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeleteUsers($filter: ModelSubscriptionUsersFilterInput) {
+  onDeleteUsers(filter: $filter) {
+    id
+    userId
+    email
+    isPayed
+    theLastUpdate
+    visites
+    history {
+      choosenWords
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnCreateWordsEnglish(
+  $filter: ModelSubscriptionWordsEnglishFilterInput
+) {
+  onCreateWordsEnglish(filter: $filter) {
+    id
+    word
+    translate
+    association
+    transcription
+    translatedTs
+    wordId
+    isImaged
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnUpdateWordsEnglish(
+  $filter: ModelSubscriptionWordsEnglishFilterInput
+) {
+  onUpdateWordsEnglish(filter: $filter) {
+    id
+    word
+    translate
+    association
+    transcription
+    translatedTs
+    wordId
+    isImaged
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+subscription OnDeleteWordsEnglish(
+  $filter: ModelSubscriptionWordsEnglishFilterInput
+) {
+  onDeleteWordsEnglish(filter: $filter) {
+    id
+    word
+    translate
+    association
+    transcription
+    translatedTs
+    wordId
+    isImaged
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}

@@ -1,0 +1,124 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateUsers(
+  $input: CreateUsersInput!
+  $condition: ModelUsersConditionInput
+) {
+  createUsers(input: $input, condition: $condition) {
+    id
+    userId
+    email
+    isPayed
+    theLastUpdate
+    visites
+    history {
+      choosenWords
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation UpdateUsers(
+  $input: UpdateUsersInput!
+  $condition: ModelUsersConditionInput
+) {
+  updateUsers(input: $input, condition: $condition) {
+    id
+    userId
+    email
+    isPayed
+    theLastUpdate
+    visites
+    history {
+      choosenWords
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation DeleteUsers(
+  $input: DeleteUsersInput!
+  $condition: ModelUsersConditionInput
+) {
+  deleteUsers(input: $input, condition: $condition) {
+    id
+    userId
+    email
+    isPayed
+    theLastUpdate
+    visites
+    history {
+      choosenWords
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation CreateWordsEnglish(
+  $input: CreateWordsEnglishInput!
+  $condition: ModelWordsEnglishConditionInput
+) {
+  createWordsEnglish(input: $input, condition: $condition) {
+    id
+    word
+    translate
+    association
+    transcription
+    translatedTs
+    wordId
+    isImaged
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation UpdateWordsEnglish(
+  $input: UpdateWordsEnglishInput!
+  $condition: ModelWordsEnglishConditionInput
+) {
+  updateWordsEnglish(input: $input, condition: $condition) {
+    id
+    word
+    translate
+    association
+    transcription
+    translatedTs
+    wordId
+    isImaged
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+mutation DeleteWordsEnglish(
+  $input: DeleteWordsEnglishInput!
+  $condition: ModelWordsEnglishConditionInput
+) {
+  deleteWordsEnglish(input: $input, condition: $condition) {
+    id
+    word
+    translate
+    association
+    transcription
+    translatedTs
+    wordId
+    isImaged
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}

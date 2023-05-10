@@ -1,0 +1,144 @@
+# this is an auto generated file. This will be overwritten
+query GetUsers($id: ID!) {
+  getUsers(id: $id) {
+    id
+    userId
+    email
+    isPayed
+    theLastUpdate
+    visites
+    history {
+      choosenWords
+    }
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+query ListUsers(
+  $filter: ModelUsersFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listUsers(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      userId
+      email
+      isPayed
+      theLastUpdate
+      visites
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query SyncUsers(
+  $filter: ModelUsersFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncUsers(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      userId
+      email
+      isPayed
+      theLastUpdate
+      visites
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query GetWordsEnglish($id: ID!) {
+  getWordsEnglish(id: $id) {
+    id
+    word
+    translate
+    association
+    transcription
+    translatedTs
+    wordId
+    isImaged
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+  }
+}
+query ListWordsEnglishes(
+  $filter: ModelWordsEnglishFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listWordsEnglishes(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      word
+      translate
+      association
+      transcription
+      translatedTs
+      wordId
+      isImaged
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+    nextToken
+    startedAt
+  }
+}
+query SyncWordsEnglishes(
+  $filter: ModelWordsEnglishFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncWordsEnglishes(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      word
+      translate
+      association
+      transcription
+      translatedTs
+      wordId
+      isImaged
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+    }
+    nextToken
+    startedAt
+  }
+}

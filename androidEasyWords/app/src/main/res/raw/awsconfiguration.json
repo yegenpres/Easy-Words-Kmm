@@ -1,0 +1,81 @@
+{
+    "UserAgent": "aws-amplify-cli/0.1.0",
+    "Version": "0.1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+    "AppSync": {
+        "Default": {
+            "ApiUrl": "https://pyzeynyix5brxawykmkd43cfra.appsync-api.eu-central-1.amazonaws.com/graphql",
+            "Region": "eu-central-1",
+            "AuthMode": "API_KEY",
+            "ApiKey": "da2-kdied7qctfa2fivvu5zt6xwjvi",
+            "ClientDatabasePrefix": "easywords_API_KEY"
+        }
+    },
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "eu-central-1:47b12cf3-d5de-40c8-8bb1-612d6daa50b1",
+                "Region": "eu-central-1"
+            }
+        }
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "eu-central-1_xEyp6ohGR",
+            "AppClientId": "3nbci52p1bmch80d21sgsldms7",
+            "Region": "eu-central-1"
+        }
+    },
+    "Auth": {
+        "Default": {
+            "OAuth": {
+                "WebDomain": "1t6gp06i4k8i-staging.auth.eu-central-1.amazoncognito.com",
+                "AppClientId": "3nbci52p1bmch80d21sgsldms7",
+                "SignInRedirectURI": "https://1t6gp06i4k8i-staging.auth.eu-central-1.amazoncognito.com/oauth2/idpresponse",
+                "SignOutRedirectURI": "https://1t6gp06i4k8i-staging.auth.eu-central-1.amazoncognito.com/oauth2/idpresponse",
+                "Scopes": [
+                    "phone",
+                    "email",
+                    "openid",
+                    "profile",
+                    "aws.cognito.signin.user.admin"
+                ]
+            },
+            "authenticationFlowType": "USER_SRP_AUTH",
+            "mfaConfiguration": "OFF",
+            "mfaTypes": [
+                "SMS"
+            ],
+            "passwordProtectionSettings": {
+                "passwordPolicyMinLength": 8,
+                "passwordPolicyCharacters": [
+                    "REQUIRES_LOWERCASE",
+                    "REQUIRES_NUMBERS",
+                    "REQUIRES_SYMBOLS",
+                    "REQUIRES_UPPERCASE"
+                ]
+            },
+            "signupAttributes": [
+                "EMAIL"
+            ],
+            "socialProviders": [
+                "GOOGLE",
+                "APPLE"
+            ],
+            "usernameAttributes": [
+                "EMAIL"
+            ],
+            "verificationMechanisms": [
+                "EMAIL"
+            ]
+        }
+    },
+    "S3TransferUtility": {
+        "Default": {
+            "Bucket": "easy-words-images-b624cc3583026-staging",
+            "Region": "eu-central-1"
+        }
+    }
+}

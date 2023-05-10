@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-easywords-staging-83026-authRole",
+      "UnauthRoleArn": "arn:aws:iam::957807784596:role/amplify-easywords-staging-83026-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::957807784596:role/amplify-easywords-staging-83026-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-easywords-staging-83026-deployment",
+      "UnauthRoleName": "amplify-easywords-staging-83026-unauthRole",
+      "StackName": "amplify-easywords-staging-83026",
+      "StackId": "arn:aws:cloudformation:eu-central-1:957807784596:stack/amplify-easywords-staging-83026/fdedd4a0-b1c1-11ed-ac8b-0af36dd1c542",
+      "AmplifyAppId": "d3sf76nbzo52vw"
+    },
+    "categories": {
+      "auth": {
+        "EasyWords": {}
+      },
+      "storage": {
+        "s3easywordsimagesb624cc35": {}
+      },
+      "api": {
+        "easywords": {}
+      }
+    }
+  }
+}
